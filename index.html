@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="theme-color" content="#222" />
+	<meta name="author" content="Ross Landgreen">
+	<title>Physics Notes</title>
+	<!-- <title>Explorable Physics</title> -->
+	<meta name="description" content="Interactive notes for algebra based physics with explorable explanations">
+	<link rel="canonical" href="https://landgreen.github.io/physics/">
+	<meta property="og:title" content="Explorable Physics">
+	<meta property="og:description" content="Interactive notes for algebra-based physics with explorable explanations.">
+	<meta property="og:image" content="media/social_media_preview.png">
+	<meta property="og:url" content="https://landgreen.github.io/physics/" />
+	<meta name="twitter:title" content="Explorable Physics">
+	<meta name="twitter:description" content="Interactive notes for algebra-based physics with explorable explanations.">
+	<meta name="twitter:image" content="https://landgreen.github.io/physics/media/social_media_preview.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel='shortcut icon' href='media/favicon.ico' type='image/x-icon' />
+	<?!=include('css')?>
+</head>
+
+<body>
+	<header>
+		<h1>
+			<a href="../">Biology Note ครูสิทธิชาติ สิทธิ</a>
+		</h1>
+	</header>
+	<style>
+		:root {
+			--svg-color: #333;
+			--svg-bg-color: #fff;
+		}
+
+		.SVG-title {
+			/* border: #000 solid 1px; */
+			margin: auto;
+		}
+
+		.table-of-contents {
+			line-height: 1.6;
+			list-style: none;
+			display: grid;
+			grid-template: "a a a a a""b b b b b";
+			max-width: 1700px;
+			margin: auto;
+			grid-gap: 4px;
+			/* border: var(--svg-color) solid 4px; */
+			border-bottom: var(--svg-color) solid 4px;
+			border-left: var(--svg-color) solid 4px;
+			border-right: var(--svg-color) solid 4px;
+			background-color: var(--svg-color);
+		}
+
+		.table-of-contents a {
+			color: var(--svg-color);
+		}
+
+		.table-of-contents a:hover {
+			color: var(--link-color);
+			text-decoration: none;
+		}
+
+		.table-of-contents li {
+			background-color: var(--svg-bg-color);
+			padding: 0px 0px 20px 0px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.table-of-contents li p {
+			margin: auto;
+		}
+
+		@media screen and (max-width: 850px) {
+			.table-of-contents {
+				grid-template: "a a""b b""c c""d d""e e";
+				border-left: var(--svg-color) solid 0px;
+				border-right: var(--svg-color) solid 0px;
+			}
+		}
+
+		@media screen and (max-width: 365px) {
+			.table-of-contents {
+				font-size: 100%;
+				grid-template: "a""b""c""d""e""f""g""h""i""j""k";
+			}
+		}
+	</style>
+	<ul class="table-of-contents">
+
+    <!-- ---------------1------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/meet_a_chemistry_professional.png-d670b8-128c.png" width="100%" height="265px">
+
+<center><h3>Intro to biology</h3></center>
+
+			<p>
+				<a href="#">Intro to biology</a>
+				<br> <a href="#">Water and life</a>
+        <br>
+        <br>
+			</p>
+		</li>
+
+    <!-- ---------------2------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/properties_of_carbon.png-b461c3-128c.png" width="100%" height="265px">
+
+<center><h3>Chemistry of life</h3></center>
+
+			<p>
+				<a href="#">Elements and atoms</a>
+				<br> <a href="#">Chemistry of life</a>
+        <br> <a href="#">Chemical bonds</a>
+        <br> <a href="#">Reactions</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+    <!-- ---------------3------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/macromolecules.png-ca6c6c-128c.png" width="100%" height="265px">
+
+<center><h3>Biomolecules</h3></center>
+
+			<p>
+				<br> <a href="#">Functional groups</a>
+        <br> <a href="#">Carbohydrates</a>
+        <br> <a href="#">Lipids</a>
+        <br> <a href="#">Proteins</a>
+        <br> <a href="#">Nucleic acids</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------4------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/cells.png-104e92-128c.png" width="100%" height="265px">
+
+<center><h3>Structure of a cell</h3></center>
+
+			<p>
+				<a href="#">Prokaryotic cell</a>
+				<br> <a href="#">Eukaryotic cell</a>
+        <br> <a href="#">Cell movement</a>
+        <br> <a href="#">Cell junctions</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------5------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/membranes_and_transport.png-4845e1-128c.png" width="100%" height="265px">
+
+<center><h3>Membranes and transport</h3></center>
+
+			<p>
+				<a href="#">The plasma membrane</a>
+				<br> <a href="#">Diffusion</a>
+        <br> <a href="#">Osmosis</a>
+        <br> <a href="#">Facilitated diffusion</a>
+        <br> <a href="#">Active transport</a>
+        <br> <a href="#">Endocytosis</a>
+        <br> <a href="#">Exocytosis</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------6------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/cellular_molecular_biology.png-d20de7-128c.png" width="100%" height="265px">
+
+<center><h3>Cell division</h3></center>
+
+			<p>
+				<a href="#">Cell Cycle</a>
+				<br> <a href="#">Mitosis</a>
+      <br> <a href="#">Meiosis</a>
+      <br> <a href="#">Cytokinesis</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------7------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/classical_genetics.png-b39283-128c.png" width="100%" height="265px">
+
+<center><h3>Genetics</h3></center>
+
+			<p>
+				<a href="#">Genetics vocabulary</a>
+				<br> <a href="#">Mendelian genetics</a>
+      <br> <a href="#">Explanding genetics</a>
+      <br> <a href="#">Molecular genetics</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------8------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/biology.png-8fe25b-128c.png" width="100%" height="265px">
+
+<center><h3>DNA to RNA to protein</h3></center>
+
+			<p>
+				<a href="#">Structure of DNA</a>
+				<br> <a href="#">Discovery of DNA</a>
+        <br> <a href="#">DNA replication</a>
+        <br> <a href="#">Central dogma</a>
+        <br> <a href="#">Transcription</a>
+        <br> <a href="#">Translation</a>
+        <br> <a href="#">Biotechnology</a>
+        <br> <a href="#">DNA analysis methods</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+	    <!-- ---------------9------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/human_biology.png-8372af-128c.png" width="100%" height="265px">
+<center><h3>Animal Physiology I</h3></center>
+
+			<p>
+				<a href="#">Circulatory system</a>
+        <br> <a href="#">Immune system</a>
+        <br> <a href="#">Respiration system</a>
+        <br> <a href="#">Digestive system</a>
+        <br> <a href="#">Cellular repiration</a>
+        <br> <a href="#">Excretory system</a>
+        
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------10------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/mental_health.png-885be5-128c.png" width="100%" height="265px">
+
+<center><h3>Animal Physiology II</h3></center>
+
+			<p>
+				<a href="#">Nervous system</a>
+        <br> <a href="#">Immune system</a>
+        <br> <a href="#">Muscular system</a>
+        <br> <a href="#">Skeleton system</a>
+        <br> <a href="#">Endocrine system</a>
+        <br> <a href="#">Reproductive system</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+    		    <!-- ---------------11------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/infectious_diseases.png-5035b7-128c.png" width="100%" height="265px">
+
+<center><h3>Bacteria & Virus</h3></center>
+
+			<p>
+				<a href="#">Bacteria </a>
+				<br> <a href="#">Virus</a>
+      <br> <a href="#">Pandemic disease</a>
+      <br> <a href="#">Cytokinesis</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------12------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/science.png-3b6492-128c.png" width="100%" height="265px">
+
+<center><h3>Plant anatomy</h3></center>
+
+			<p>
+        <a href="#">Root structure</a>
+				<br> <a href="#">Stem structure</a>
+        <br> <a href="#">Leaf structuren</a>
+        <br> <a href="#">Flower structure</a>
+        <br> <a href="#">Fruit</a>
+        <br> <a href="#">Seed</a>
+
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------13------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/photosynthesis_in_plants.png-801b8e-128c.png" width="100%" height="265px">
+
+<center><h3>Plant Physiology</h3></center>
+
+			<p>
+				<a href="#">Water transport</a>
+				<br> <a href="#">Sugar traslocation</a>
+        <br> <a href="#">Transpiration </a>
+        <br> <a href="#">Photosynthesis</a>
+        <br> <a href="#">C4 CAM mechnaism</a>
+        <br> <a href="#">Plant Hormone</a>
+        <br> <a href="#">Plant Response</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+	    <!-- ---------------14------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/cell_signaling.png-520820-128c.png" width="100%" height="265px">
+
+<center><h3>Biodiversity</h3></center>
+
+			<p>
+				<a href="#">Earth and early life</a>
+        <br> <a href="#">Diversification</a>
+        <br> <a href="#">Kingdom Monera</a>
+        <br> <a href="#">Kingdom Protista</a>
+        <br> <a href="#">Kingdom Fungi</a>
+        <br> <a href="#">Kingdom Plantae</a>
+        <br> <a href="#">Kingdom Animalia</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+		    <!-- ---------------15------------ -->
+		<li>
+
+<img src="https://cdn.kastatic.org/genfiles/topic-icons/icons/cellular_respiration_and_fermentation.png-cd79d8-128c.png" width="100%" height="265px">
+
+<center><h3>Ecology</h3></center>
+
+			<p>
+				<a href="#">Population ecology</a>
+        <br> <a href="#">Population growth</a>: 
+        <br> <a href="#">Community & diversity</a>
+        <br> <a href="#">Ecology</a>
+        <br> <a href="#">Biogeochemical</a>
+				<br>
+				<br>
+			</p>
+		</li>
+
+	</ul>
+	<article>
+		<div>
+			<h2 class='underlined'>About</h2>
+			<p>
+				This site contains course notes for basic biology with hand writting note.
+				I'm still adding content for 2022-2023. Let me know if you have any ideas or if you found one of the numerous mistakes.
+			</p>
+			<p>
+				Email : I@Sittichart.com
+			</p>
+			<!-- <p>
+				The code is open source and hosted on <a href="https://github.com/landgreen/physics">github</a>.
+				<br class="hide-on-mobile">It's free to use under the <a href="https://github.com/landgreen/physics/blob/master/LICENSE">GNU General Public License v3.0</a>.
+				<br class="hide-on-mobile">The diagrams are SVG written in a text editor.
+				<br class="hide-on-mobile">The math is rendered with the typesetting library <a href="https://katex.org/">KaTeX</a>.
+				<br class="hide-on-mobile">The simulations are JavaScript outputting to canvas or SVG.
+				<br class="hide-on-mobile">Collision simulations use the <a href="http://brm.io/matter-js/">Matter.js</a> 2-D physics engine.
+			</p> -->
+		</div>
+		<!-- <h2 class='underlined'>Links</h2>
+		<br>
+		<ul class="listing">
+			<li>
+				<strong>Shared</strong>
+				<a href="https://drive.google.com/open?id=1uhqsIn5Ryggmndnt40ReF8v-x0t65vJi">Student Files</a>
+				<a style="padding-bottom: 22px;" href="https://goo.gl/photos/E7jTHpgHRFgT6C7p6">Classroom Photos</a>
+				<strong>Highlighted Explorables</strong>
+				<a href="notes/waves/waveproperties/#standing-wave-sim">Standing Waves</a>
+				<a href="notes/energy/thermo/#entropy">Entropy</a>
+				<a href="notes/waves/waveproperties/#harmony">Harmony</a>
+				<a href="notes/circuits/electricity/#current">Conductivity</a>
+				<a href="notes/motion/motion/">Particles</a>
+				<a href="notes/momentum/momentum/#conservation">Momentum</a>
+				<a href="notes/force/friction/">Sliding Friction</a>
+				<a href="notes/energy/conservation/#spring-mass-gravity">Spring and Mass</a>
+				<a href="notes/motion/kinematics/#tank-sim">Ballistics</a>
+				<a href="notes/gravity/gravitation/#gravity-potential-sim">Gravitational Energy</a>
+			</li>
+			<li>
+				<strong>Learn Physics</strong>
+				<a href="https://phet.colorado.edu/en/simulations/category/html">PhET simulations</a>
+				<a href="https://www.exploratorium.edu/snacks">Science Snacks</a>
+				<a href="http://www.falstad.com/mathphysics.html">Falstad Simulations</a>
+				<a style="padding-bottom: 22px;" href="https://openstax.org/details/books/college-physics">Physics Textbook</a>
+				<strong>YouTube</strong>
+				<a href="https://www.youtube.com/playlist?list=PLGO_AWB1C4GQz6JF3-0yZHpoKfqZb7O5z">Physics Girl</a>
+				<a href="https://www.youtube.com/user/flippingphysics/playlists">Flipping Physics</a>
+				<a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtN0ge7yDk_UA0ldZJdhwkoV">Crash Course</a>
+				<a href="https://www.youtube.com/channel/UCUHW94eEFW7hkUMVaZz4eDg">Minute Physics</a>
+				<a href="https://www.youtube.com/user/msadaghd/">ElectroBOOM</a>
+				<a href="https://www.youtube.com/channel/UCBbnbBWJtwsf0jLGUwX5Q3g">Journey to the Microcosmos</a>
+				<a href="https://www.youtube.com/channel/UC7_gcs09iThXybpVgjHZ_7g">PBS Space Time</a>
+				<a href="https://www.youtube.com/c/CaptainDisillusion/videos">Captain Disillusion</a>
+			</li>
+		</ul> -->
+	</article>
+
+	<footer>
+		<a href="#">Made with Love by Sanwithz</a>
+	</footer>
+</body>
+
+</html>
